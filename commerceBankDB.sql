@@ -10,6 +10,7 @@ PRIMARY KEY (username));
 CREATE TABLE URL_Table
 (URL_Index INT NOT NULL,
 URL_str  VARCHAR(256),
+username VARCHAR(30),
 PRIMARY KEY (URL_Index),
 FOREIGN KEY (username) REFERENCES User(username));
 
@@ -20,6 +21,7 @@ name VARCHAR(30),
 responseCode VARCHAR(100),
 responseHeaders VARCHAR(100),
 SSLProtocol VARCHAR(30),
+URL_INDEX INT NOT NULL,
 PRIMARY KEY (URL_str),
 FOREIGN KEY (URL_Index) REFERENCES URL_Table(URL_Index));
 
