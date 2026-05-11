@@ -1,0 +1,44 @@
+# IDE and editor state
+.vs/
+**/.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+.next/
+coverage/
+
+# Java / Gradle / backend
+.gradle/
+**/build/
+out/
+target/
+*.class
+
+# Archives and packaged artifacts
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Local environment files
+.env
+.env.*
+!.env.example

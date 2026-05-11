@@ -1,0 +1,46 @@
+.custom-header {
+    background-color: #FAF9F7;
+    width: 100%;
+    padding: 10px 40px;
+  }
+  
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    width: 100%;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    width: 220px;
+    height: auto;
+  }
+  
+  /* Navbar Styling */
+  .nav-bar {
+    flex-grow: 1;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .separator-bar {
+    background-color: #006649;
+    height: 15px;
+    width: 100%;
+  }
+  .logged-in-info {
+    margin-left: auto;
+    font-weight: 500;
+    color: #006649;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  

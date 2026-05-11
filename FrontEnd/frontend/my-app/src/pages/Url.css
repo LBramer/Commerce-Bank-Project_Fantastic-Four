@@ -1,0 +1,48 @@
+.url-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.url-form-container {
+  width: 50%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.url-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.url-table-container {
+  width: 80%;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.url-table-container .form-control {
+  padding: 4px 8px;
+  font-size: 14px;
+  height: 32px;
+}
+
+.url-table-container td {
+  vertical-align: middle;
+}
+
+.table {
+  table-layout: auto;
+}
+
+.me-2 {
+  margin-right: 8px;
+}
+
